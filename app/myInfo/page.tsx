@@ -9,7 +9,7 @@ export default function MyInfo() {
         <div className={styles.myInfo}>
             <div className={styles.left}>
                 {/* <p>Hi there! I'm</p> */}
-                <h1 className={styles.textPop}><span>Caden</span> Wilcox</h1>
+                <h1 className={styles.textPop}><span>Caden</span> Wilcox 523</h1>
                 <h2>Full Stack Developer</h2>
                 <p>From code to creativity, I build digital dreams with a full-stack flair</p>
                 <button className={styles.textPop}>Resume</button>
