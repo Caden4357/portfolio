@@ -20,7 +20,13 @@
 /* .projectText{
     max-height: 200px;
 } */
-
+.proj-img{
+    object-fit: cover;
+    image-rendering: crisp-edges;
+    width: 300px;
+    height: 300px;
+    /* border: 2px solid white; */
+}
 @keyframes border-fade {
     0% {
         background-position: -100% 0;

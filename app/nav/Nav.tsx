@@ -7,7 +7,7 @@ export default function Nav() {
 
     return (
         <nav className='d-flex jc-evenly ai-center'>
-            <h2>Caden Wilcox!</h2>
+            <h2 className='title'>Caden Wilcox</h2>
             <div className='d-flex jc-end ai-center gap nav-links'>
                 <Link href='/myInfo'>Home</Link>
                 <Link href='/projects'>Projects</Link>

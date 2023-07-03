@@ -40,6 +40,10 @@
 .textPop {
     animation: textPop 1s infinite alternate;
 }
+.resume{
+    color: purple;
+    text-decoration: none;
+}
 
 @keyframes textPop {
     0% {

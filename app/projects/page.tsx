@@ -19,13 +19,7 @@ export default function Projects() {
             <h1 className='mb-20'>Projects!</h1>
             <div className='d-flex ai-center project p-5 jc-evenly align-self-start'>
                 <div>
-                    <Image 
-                        alt='Project 1'
-                        onMouseOver={handleMouseOver} 
-                        onMouseOut={handleMouseOut} 
-                        src={isHovered ? '/chatSocketpic2.png' : '/chatSocket.png'} 
-                        width={220} height={220}
-                        />
+                    <img alt='Project 1' src='/chatSocket.png' className='proj-img'/>
                 </div>
                 <div className='w-50 projectText'>
                     <h2 className='mb-20'>Chat Socket </h2>
@@ -35,7 +29,7 @@ export default function Projects() {
             </div>
             <div className='d-flex ai-center project p-5 jc-evenly align-self-end'>
                 <div className='d-flex ai-center gap'>
-                    <Image src='/storyline.png' alt='Project 1' width={220} height={220} />
+                    <img src='/storyline.png' alt='Project 1' className='proj-img'/>
                 </div>
                 <div className='w-50 projectText'>
                     <h2 className='mb-20'>Storyline</h2>
@@ -45,12 +39,15 @@ export default function Projects() {
             </div>
             <div className='d-flex ai-center project p-5 jc-evenly align-self-start'>
                 <div className='d-flex ai-center gap'>
-                    <Image src='/project.png' alt='Project 1' width={220} height={220} />
+                    <img src='/imdb.png' alt='Project 1' className='proj-img'/>
                 </div>
                 <div className='w-50 projectText'>
-                    <h2 className='mb-20'>Todo List</h2>
-                    <p>Keep track of your todos with this sleek todo app using React, Chakra UI, Node, Express and MongoDB includes secure login and registration using JSON Web Tokens and Bcrypt</p>
+                    <h2 className='mb-20'>Movie Picker</h2>
+                    <p>IMDB clone made with TypeScript, React, TVDB API & Tailwind CSS</p>
                     <Link target="_blank" href='#'>View Project</Link>
+                    <br />
+                    <Link target="_blank" href='#'>View Code</Link>
+                    
                 </div>
             </div>
         </main>

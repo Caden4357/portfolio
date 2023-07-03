@@ -4,7 +4,7 @@ nav {
     /* position: fixed; */
     padding: 20px;
     /* border: 2px solid transparent; */
-    background-image: linear-gradient(to right, transparent, red);
+    background-image: linear-gradient(to right, transparent, rgba(255, 0, 0, 0.25));
     /* Replace with desired border color */
     background-repeat: no-repeat;
     background-size: 400% 100%;
@@ -53,7 +53,7 @@ nav div{
     .nav-burger{
         display: block;
         position: absolute;
-        top: 100px;
+        top: 60px;
         /* right: 40px; */
         width: 300px;
         height: 100%;
@@ -73,4 +73,10 @@ nav div{
     .nav-links a{
         display: none;
     }
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
 }
