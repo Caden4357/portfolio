@@ -44,9 +44,9 @@ export default function Projects() {
                 <div className='w-50 projectText'>
                     <h2 className='mb-20'>Movie Picker</h2>
                     <p>IMDB clone made with TypeScript, React, TVDB API & Tailwind CSS</p>
-                    <Link target="_blank" href='#'>View Project</Link>
+                    <Link target="_blank" href='https://imdb-clone-bmmr.vercel.app/'>View Project</Link>
                     <br />
-                    <Link target="_blank" href='#'>View Code</Link>
+                    <Link target="_blank" href='https://github.com/Caden4357/imdb-clone'>View Code</Link>
                     
                 </div>
             </div>
